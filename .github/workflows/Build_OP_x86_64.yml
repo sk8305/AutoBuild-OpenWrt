@@ -78,7 +78,7 @@ jobs:
       working-directory: ./openwrt
       run: |
         #git clone https://github.com/xiaorouji/openwrt-package.git package/lienol
-        git clone https://github.com/sk8305/openwrt-packages /tree/packages
+        git clone https://github.com/liuran001/openwrt-packages.git /tree/packages
         #git clone "your_github_link" package/"your_folder_name"      
 
     - name: Configuration Customization - Build_x86_64
