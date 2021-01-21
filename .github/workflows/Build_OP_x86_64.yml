@@ -76,7 +76,7 @@ jobs:
     - name: Import external feeds
       working-directory: ./openwrt
       run: |
-        git clone https://github.com/xiaorouji/openwrt-package.git package/lienol
+        #git clone https://github.com/xiaorouji/openwrt-package.git package/lienol
         git clone https://github.com/liuran001/openwrt-packages package/lllsss
         #git clone "your_github_link" package/"your_folder_name"      
 
